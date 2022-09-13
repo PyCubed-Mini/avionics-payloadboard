@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "cameraboard.step",
+      "step": "payloadboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -58,7 +58,7 @@
       (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue true)
       (plotinvisibletext false)
       (sketchpadsonfab false)
@@ -67,7 +67,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/cameraboard (07-06-22)")
+      (outputdirectory "gerbers/payloadboard (09-09-22)")
     )
   )
 
@@ -2247,7 +2247,7 @@
       (net 26 "Net-(Q4-Pad2)") (pintype "passive") (tstamp 2a75b338-a727-4fd9-98f8-896a22935510))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 21 "SD_MISO") (pintype "passive") (tstamp 89c64c0b-935f-4183-a39e-80b2b57834d1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2346,7 +2346,7 @@
       (net 25 "Net-(Q4-Pad1)") (pintype "passive") (tstamp ce69b295-eddd-46fd-957f-b3e1e96e9f57))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 12 "SD_CS") (pintype "passive") (tstamp 1db420d3-afcf-4ccc-bd8f-27d9d6816e19))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2398,7 +2398,7 @@
       (net 26 "Net-(Q4-Pad2)") (pinfunction "E") (pintype "passive") (tstamp b26fd67e-c98a-4b68-b95b-e44dfae90ee2))
     (pad "3" smd roundrect (at 0.9375 0 90) (size 1.475 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 10 "MISO") (pinfunction "C") (pintype "passive") (tstamp e6959442-061f-45fd-ab33-84b1fded716b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
